@@ -17,3 +17,9 @@ body{
 .overlay-gradient {
   background: linear-gradient(77deg, rgba(0, 0, 0, 0.6), transparent 85%);
 }
+.blur {
+  background: rgba(255, 255, 255, 0.082);
+  backdrop-filter: blur(2px); 
+  height: 100vh;
+	width: 100%;
+}
